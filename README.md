@@ -1,6 +1,6 @@
 <div align="center">
-
 <img width="" src="public/social-card.png"  width=160 height=160  align="center">
+</div>
 
 Blog site built with th [Astro](https://astro.build/) and the [Astro Theme Cactus](https://github.com/chrismwilliams/astro-theme-cactus) template.
 
