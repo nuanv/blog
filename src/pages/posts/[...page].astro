@@ -6,6 +6,7 @@ import { getAllPosts, getUniqueTags, groupPostsByYear } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
 import { collectionDateSort } from "@/utils/date";
 import type { GetStaticPaths, Page } from "astro";
+import DecryptingHeader from "@/components/DecryptingHeader.astro";
 
 export const getStaticPaths = (async ({ paginate }) => {
 	const MAX_POSTS_PER_PAGE = 10;
@@ -50,9 +51,7 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 ---
 
 <PageLayout meta={meta}>
-	<h1 class="title text-accent mb-6 flex items-center gap-3">
-		Posts
-	</h1>
+	<DecryptingHeader text="Blogs" className="title mb-6 text-accent items-center gap-3" />
 	<div class="grid gap-y-16 sm:grid-cols-[3fr_1fr] sm:gap-x-8">
 		<section aria-label="Blog post list">
 			{

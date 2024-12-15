@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "@/components/FormattedDate.astro";
+import DecryptingHeader from "../DecryptingHeader.astro";
 
 interface Props {
 	content: CollectionEntry<"post">;
@@ -30,9 +31,7 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = {
 	)
 }
 {data.draft ? <span class="text-base text-red-500">(Draft)</span> : null}
-<h1 class="title">
-	{data.title}
-</h1>
+<DecryptingHeader text={data.title} className="title mb-3 sm:mb-1 text-accent">
 <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
 	<p class="font-semibold">
 		<FormattedDate date={data.publishDate} dateTimeOptions={dateTimeOptions} /> /{" "}
