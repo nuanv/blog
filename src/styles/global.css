@@ -25,4 +25,11 @@
 		--theme-accent-2: 250deg 31% 72%;
 		--theme-quote: 24deg 71% 80%;
 	}
+	html {
+		@apply h-full scroll-smooth border-t-2 border-textColor;
+	}
+
+	html body {
+		@apply mx-auto flex h-full max-w-3xl flex-col bg-black px-8 pt-16 font-sans text-sm font-normal text-textColor antialiased;
+	}
 }
