@@ -46,7 +46,7 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
-				sans: ["Commit Mono",...fontFamily.sans],
+				sans: [...fontFamily.sans],
 				serif: [...fontFamily.serif],
 			},
 			transitionProperty: {

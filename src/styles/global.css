@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-	font-family: "Commit Mono";
-	src: url("/CommitMono-400-Regular.otf") format("opentype");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Commit Mono";
-	src: url("/CommitMono-700-Regular.otf") format("opentype");
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-}
 @layer base {
 	:root,
 	:root[data-theme="light"] {
@@ -39,5 +25,4 @@
 		--theme-accent-2: 250deg 31% 72%;
 		--theme-quote: 24deg 71% 80%;
 	}
-	
 }
