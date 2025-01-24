@@ -179,8 +179,6 @@ terraform apply -target=module.website
 
 ## 📈 Results
 
-![Visitor Counter Demo](./assets-md/counter.gif)
-
 The final implementation features:
 - 100% serverless architecture
 - Global accessibility via Cloudflare DNS
