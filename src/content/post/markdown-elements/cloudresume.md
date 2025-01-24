@@ -3,9 +3,6 @@ title: "AWS Cloud Resume Challenge"
 description: "How I leveraged Terraform and AWS services to build a serverless resume website with a visitor counter"
 publishDate: "2 Jan 2025"
 updatedDate: 22 Jan 2025
-coverImage:
-  src: "./assets-md/diagram.png"
-  alt: "Astro build wallpaper"
 tags: ["AWS", "terraform", "CloudFlare", "CloudResumeChallenge"]
 ---
 
