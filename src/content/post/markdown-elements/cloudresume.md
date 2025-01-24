@@ -4,8 +4,8 @@ description: "How I leveraged Terraform and AWS services to build a serverless r
 publishDate: "2 Jan 2025"
 updatedDate: 22 Jan 2025
 coverImage:
-  src: ./diagrams/crc.png
-  alt: "Architecture"
+  src: "./assets-md/diagram.png"
+  alt: "Astro build wallpaper"
 tags: ["AWS", "terraform", "CloudFlare", "CloudResumeChallenge"]
 ---
 
@@ -163,7 +163,7 @@ export async function getViews(): Promise<number> {
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/nuanv/cloud-resume-project.git
+git clone https://github.com/nuanv/CRC-AWS.git
 ```
 
 2. Deploy infrastructure:
@@ -179,7 +179,7 @@ terraform apply -target=module.website
 
 ## 📈 Results
 
-![Visitor Counter Demo](./assets/counter.gif)
+![Visitor Counter Demo](./assets-md/counter.gif)
 
 The final implementation features:
 - 100% serverless architecture
@@ -191,7 +191,7 @@ The final implementation features:
 
 ## 🔗 Resources
 - [Official Challenge Documentation](https://cloudresumechallenge.dev/docs/the-challenge/aws/)
-- [Project GitHub Repository](https://github.com/nuanv/cloud-resume-project)
+- [Project GitHub Repository](https://github.com/nuanv/CRC-AWS)
 - [Terraform AWS Provider Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 
 *Special thanks to the Cloud Resume Challenge creators for this excellent learning opportunity!*
