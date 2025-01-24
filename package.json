@@ -2,6 +2,9 @@
 	"name": "astro-cactus",
 	"version": "5.0.0",
 	"private": false,
+	"pnpm": {
+		"onlyBuiltDependencies": ["sharp"]
+	},
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
