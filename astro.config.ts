@@ -23,6 +23,10 @@ import rehypeUnwrapImages from "rehype-unwrap-images";
 export default defineConfig({
 	image: {
 		domains: ["webmention.io"],
+		remotePatterns: [{ protocol: "https" }],
+		service: {
+			entrypoint: 'astro/assets/services/sharp'
+		}
 	},
 	integrations: [
 		expressiveCode(expressiveCodeOptions),

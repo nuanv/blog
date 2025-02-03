@@ -20,7 +20,7 @@ I recently completed the [AWS Cloud Resume Challenge](https://cloudresumechallen
 
 I used **Excalidraw** (whiteboard tool) to visualize the infrastructure:
 
-![Architecture](./diagram.png)
+![Architecture](../../../../public/images/posts/diagram.png)
 
 **Key Components**:
 - **Frontend**: Static website hosted in S3
@@ -176,7 +176,7 @@ terraform apply -target=module.website
 
 ## 📈 Results
 
-![Visitor Counter Demo](./counter.gif)
+![Visitor Counter Demo](../../../../public/images/posts/counter.gif)
 
 The final implementation features:
 - 100% serverless architecture
