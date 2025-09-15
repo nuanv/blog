@@ -18,10 +18,6 @@ I recently completed the [AWS Cloud Resume Challenge](https://cloudresumechallen
 
 ## 🏗️ Architecture Overview
 
-I used **Excalidraw** (whiteboard tool) to visualize the infrastructure:
-
-![Architecture](../../../../public/images/posts/crc-aws/diagram.png)
-
 **Key Components**:
 - **Frontend**: Static website hosted in S3
 - **Visitor Counter**: Lambda function triggered via API Gateway
